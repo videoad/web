@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Thu, 22 Jan 2015 16:14:01 +0100</pubDate><title><![CDATA[Adplan - Detailní popis aplikace]]></title><url><![CDATA[adplan-detailni-popis-aplikace]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Adplan - Detailní popis aplikace]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[adplan]]></parent><content><![CDATA[&lt;p&gt;Adplan.cz se skládá ze 4 primárních modulů, kterými jsou:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Správa uživatelů a práv&lt;/li&gt;
+	&lt;li&gt;Serverová část&lt;/li&gt;
+	&lt;li&gt;Klientská část&lt;/li&gt;
+	&lt;li&gt;Reporty&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br /&gt;
+	&lt;strong&gt;1. Správa uživatelů a práv&lt;/strong&gt;&lt;br /&gt;
+	Adplan.cz umožňuje mediazastupiteli (vydavatelství, provozovateli internetových webu apod.), dále jen MZ, komplexně spravovat uživatele a jejich práva. Každý MZ po zakoupení licence obdrží tzv. Instal Admin přístup, který umožní vytvářet libovolný počet zadavatelů, provozovatelů serverů, klientů a dalších admin rolí ve své společnosti. Pomocí komplexní správy rolí má každý uživatel Adplan.cz rozdílné možnosti se systémem pracovat.&lt;br /&gt;
+	&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Serverová část&lt;/strong&gt;&lt;br /&gt;
+	Ve správě serverů si MZ má možnost zadat všechny internetové servery, které zastupuje nebo vlastní, příp. servery na kterých internetovou reklamu nakupuje. V této části lze spravovat ceníky jednotlivých serverů, provize, které MZ ze serverů obdrží, afinity k jednotlivým cílovým skupinám apod. Lze si tedy v Přehledu serverů velice jednoduše filtrovat kampaně, které jsou na vybraném serveru naplánované, objednané či realizované v určitém časovém období.&lt;br /&gt;
+	Pochopitelně v případě, že internetový server je vlastněn jinou společností nežli je MZ, má majitel serveru možnost vidět rezervované či objednané kampaně pod svým přístupem a to včetně vyúčtování za každý měsíc.&lt;br /&gt;
+	&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Klientská část&lt;/strong&gt;&lt;br /&gt;
+	Jedná se v podstatě o jádro systému. MZ má možnost si zadávat rozjednané či prodané reklamní kampaně do systému a naplánovat je na Servery, které si předtím vytvořil v Serverové části. Navíc, do klientského rozhraní mají automaticky přímý přístup klienti, kteří mohou plánovat a objednávat reklamní kampaně rovnou na serverech MZ. Zadání reklamní kampaně probíhá velice jednoduše ve dvou krocích. MZ poté eviduje veškeré reklamní kampaně ve Správě kampaní, kde je může objednat na jednotlivé internetové servery, vyfakturovat případně s klientem licitovat o výši slev.&lt;br /&gt;
+	&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Reporty&lt;/strong&gt;&lt;br /&gt;
+	Při vytváření Adplan.cz byl velký důraz kladen na výstupy které software umožňuje generovat. Z Reportovacího modulu si lze vybrat Přehled kampaní pro daný měsíc, Přehled reklamních kampaní po serverech a Report ceníků. Adplan.cz je kompatibilní s plánovacím systémem mediálních agentur Hondzyk 2.0, tudíž lze velice jednoduše využít Reportu ceníku pro zaslání do mediálních agentur který Hondzyka 2.0 používají. V neposlední řadě Přehled kampaní poslouží jako užitečný podklad pro fakturaci jednotlivých internetových reklamních kampaní.&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>

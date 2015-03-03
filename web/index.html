@@ -1,0 +1,426 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Grapemedia s.r.o. - technologická společnost</title>
+		<link href="web/css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="web/js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		 <!---- animated-css ---->
+		<link href="web/css/animate.css" rel="stylesheet" type="text/css" media="all">
+		<script src="web/js/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<!---- animated-css ---->
+		  <!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="web/js/move-top.js"></script>
+		<script type="text/javascript" src="web/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<link href="web/css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<div class="bg">
+		<!----- start-header---->
+			<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><img src="web/images/logo.png" title="grapemedia" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#home" class="scroll">Home</a></li>
+								<li><a href="#portfolio" class="scroll">Produkty</a></li>
+								<li><a href="#port" class="scroll">Služby</a></li>
+								<li><a href="#team" class="scroll">Tým</a></li>
+								<li><a href="#contact" class="scroll">Kontakt</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="web/images/menu-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- banner ---->
+			<div class="banner wow fadeIn" data-wow-delay="0.5s">
+				<div class="container">
+					<div class="banner-info text-center">
+						<h1>VYTVÁŘÍME NEOTŘELÉ A UNIKÁTNÍ PRODUKTY</h1><br />
+						<span> </span>
+						<p>Provozovatelům a zadavatelům internetové reklamy výrazně pomáháme v realizaci reklamních kampaní.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!---- banner ---->
+			<div class="clearfix"> </div>
+
+			<div id="portfolio" class="expertise"> </div>
+			<div class="portfolio">
+				<div class="portfolio-top">
+					<div class="col-md-8">
+						<div class="portfolio-top-left wow fadeInLeft" data-wow-delay="0.4s">
+							
+							<h3>Naše produkty</h3>
+							<div class="portfolio-top-left-grids">
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon1"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>VideoAd.cz - rich-media video formáty</h5>
+										<p>VideoAd přináší netradiční formu interaktivní reklamy pro zadavatele kteří disponují klasickými televizními spoty. Pomocí unikátní technologie lze na libovolném internetovém serveru vytvořit interaktivní formáty s video obsahem. Více informací na <a href="http://www.videoad.cz">http://www.videoad.cz</a></p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon2"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>Adplan.cz - plánovací systém</h5>
+										<p>Adplan je pokročilý plánovací nástroj určený pro provozovatele internetových stránek. Software umožňuje evidovat, plánovat a efektivně spravovat reklamní prostor, fakturovat, vytvářet reporty, ceníky apod.</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="portfolio-top-left-grid">
+									<div class="portfolio-top-left-grid-left">
+										<span class="p-icon3"> </span>
+									</div>
+									<div class="portfolio-top-left-grid-right">
+										<h5>Preroll.cz - technologie pro streamovaní spotů</h5>
+										<p>Unikátní technologie která automaticky vyhledá na vašem serveru vložená videa, před která zajistíme vložení video reklamy nebo výkonostní bannerovou reklamu.</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 portfolio-top-right-inner wow fadeInRight" data-wow-delay="0.4s">
+						<div class="portfolio-top-right">
+							
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<!---- portfolio-works ---->
+					<div class="portfolio-works">
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="web/images/g1.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4><a href="http://www.videoad.cz">VideoAd.cz</a></h4>
+								<p>VideoAd přináší netradiční formu interaktivní reklamy pro zadavatele kteří disponují klasickými televizními spoty. Pomocí unikátní technologie lze na libovolném internetovém serveru vytvořit interaktivní formáty s video obsahem.</p><p><a href="http://www.videoad.cz">Pokračujte na stránky projektu</a></p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="web/images/g2.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4><a href="http://www.adplan.cz">Ad*plan.cz</a></h4>
+								<p>Adplan je pokročilý plánovací nástroj určený pro provozovatele internetových stránek. Software umožňuje evidovat, plánovat a efektivně spravovat reklamní prostor, fakturovat, vytvářet reporty, ceníky apod.</p><p><a href="http://www.adplan.cz">Přihlášení do systému</a></p>
+							</div>
+						</div>
+						<div class="col-md-4 portfolio-work-grid wow bounceIn" data-wow-delay="0.4s">
+							<div class="portfolio-work-grid-pic">
+								<img src="web/images/g4.jpg" title="name" />
+							</div>
+							<div class="portfolio-work-grid-caption">
+								<h4><a href="http://www.preroll.cz">Preroll.cz</a></h4>
+								<p>Unikátní technologie která automaticky vyhledá na vašem serveru vložená videa před která zajistíme vložení video reklamy nebo výkonostní bannerovou reklamu.</p><p><a href="http://www.preroll.cz">Pokračujte na stránky projektu</a></p>
+							</div>
+						</div> 
+						<div class="clearfix"> </div>
+					</div>
+					<!---- portfolio-works ---->
+				</div>
+			</div>
+			<!--- portfolio ---->
+						<!--- Other Expertise ---->
+			<div id="port" class="expertise">
+				<div class="expertice-grids">
+					<div class="col-md-8 expertice-left-grid wow fadeInLeft" data-wow-delay="0.4s">
+						<div class="expertise-head">
+							<h3>Naše služby</h3>
+							<p>GrapeMedia také poskytuje technickou podporu, tj. správu, kontrolu, nasazování a administraci reklamních kampaní pro provozovatele internetových stránek a mediazastupitelství.</p>
+						</div>
+						<div class="expertise-left-inner-grids">
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon1"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>Optimalizace Adsense</h4>
+									<p>Možnost zvýšení příjmů z reklamy prostřednictvím vlastního obsahu a kontextové a grafické reklamy Google AdSense.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon2"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>Technický support</h4>
+									<p>Zajistíme správu, kontrolu, nazazování a administraci kampaní pro provozovatele internetových stránek.</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon3"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>Richmedia formáty</h4>
+									<p>Vytváříme unikátní interaktivní formáty na přání klienta nebo serveru. </p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="e-left-inner-grid">
+								<div class="e-left-inner-grid-left">
+									<span class="e-icon4"> </span>
+								</div>
+								<div class="e-left-inner-grid-right">
+									<h4>Mobilní formáty</h4>
+									<p>Díky využívání technologie HTML 5 jsou naše interaktivní plně kompatibilní s mobilními zařízeními. </p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<a class="leran-more" href="#contact">Kontaktujte nás</a>
+					</div>
+					<div class="col-md-4 expertice-right-grid wow fadeInRight" data-wow-delay="0.4s">
+						
+					</div>
+					<div class="clearfix"> </div> 
+				</div>
+			</div>
+			<!--- Other Expertise ---->
+			<!---- about ---->
+			<!---start-about---->
+		<div class="about">
+			<div class="wrap"> 
+				<div class="about-head">
+					<h1>Aktuality</h1>
+					<span> </span>
+				</div>
+				
+				<div class="about-time-line">
+					<li>
+							<div class="cbp_tmicon img1"> </div>
+							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+								<h2>Prosinec 2014 - Google Adsense Partner</h2>
+							
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon1 img2"> </div>
+							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+								<h2>Listopad 2014 - Nové mobilní formáty</h2>
+								
+							</div>
+					</li><br />
+					<li>
+							<div class="cbp_tmicon2 img3"> </div>
+							<div class="cbp_tmlabel wow fadeInLeft" data-wow-delay="0.4s">
+								<h2>Září 2014 - Preroll.cz</h2>
+								
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon3 img4"> </div>
+							<div class="cbp_tmlabel cbp_tmlabel1 wow fadeInRight" data-wow-delay="0.4s">
+								<h2>Prosinec 2013 - VideoAd HTML5</h2>
+								
+							</div>
+					</li>
+					<li>
+							<div class="cbp_tmicon4 img5"> </div>
+					</li>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+				</div>
+				<!---//End-about-time-line---->
+			<!---- about ---->
+		</div>
+			<!---- team --->
+			<div id="team" class="team-members">
+					<div class="wrap"> 
+						<div class="tm-head">
+							<h3>Náš tým</h3>
+							<p>Grape Media, s.r.o. byla založena v r. 2009 s cílem vyvíjet a na trh uvádět nové, neotřelé technologie a služby které provozovatelům a zadavatelům internetové reklamy výrazně pomohou v plánování reklamních kampaní.</p>
+						</div>
+						<div class="tm-head-grids">
+							<div class="tm-head-grid wow fadeInLeft" data-wow-delay="0.4s">
+								<img src="web/images/team-member1.jpg" alt="">
+								<h4>Marek Pokorný</h4>
+								<h5>Co-owner</h5>
+								<ul class="top-social-icons">
+									<li><a class="twitter" href="https://twitter.com/marekpokorny"> </a></li>
+									<li><a class="facebook" href="https://www.facebook.com/zabrodsky"> </a></li>
+									<li><a class="pin" href="http://cz.linkedin.com/in/mpokorny/cs"> </a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s">
+								<img src="web/images/team-member2.jpg" alt="">
+								<h4>Marek Zábrodský</h4>
+								<h5>Managing director</h5>
+								<ul class="top-social-icons">
+									<li><a class="twitter" href="https://twitter.com/zabrodsky"> </a></li>
+									<li><a class="facebook" href="https://www.facebook.com/zabrodsky"> </a></li>
+									<li><a class="pin" href="http://cz.linkedin.com/in/zabrodsky"> </a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s">
+								<img src="web/images/team-member3.jpg" alt="">
+								<h4>Tereza Drhová</h4>
+								<h5>Accountant</h5>
+								<ul class="top-social-icons">
+								<li><a class="twitter" href=""> </a></li>
+									<li><a class="facebook" href=""> </a></li>
+									<li><a class="pin" href=""> </a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+							<div class="tm-head-grid wow fadeInUp" data-wow-delay="0.4s">
+								<img src="web/images/team-member4.jpg" alt="">
+								<h4>Vojta Seidl</h4>
+								<h5>Support</h5>
+								<ul class="top-social-icons">
+								<li><a class="twitter" href=""> </a></li>
+									<li><a class="facebook" href=""> </a></li>
+									<li><a class="pin" href=""> </a></li>
+									<div class="clear"> </div>
+								</ul>
+							</div>
+						
+							<div class="clearfix"> </div>
+						</div>
+						<p class="team-info">Pokud budeme hledat další kolegy, naleznete nabídky na <a href="http://www.startupjobs.cz/startup/grapemedia-s-r-o">StartupJobs</a>.</p>
+					</div>
+				</div>
+			<!---- team --->
+			<!---- contact --->
+			<div id="contact" class="contact">
+				<div class="container">
+				<div class="contact-grids">
+					<div class="col-md-6">
+						<div class="contact-left wow fadeInRight" data-wow-delay="0.4s">
+							<h3>Kontakt</h3>
+							<label>V případě dotazů neváhejte nás kontaktovat.</label>
+							<div class="contact-left-grids">
+								<div class="col-md-6">
+									<div class="contact-left-grid">
+										<p><span class="c-mobi"> </span>212 240 966</p>
+										<p><span class="c-twitter"> </span><a href="https://twitter.com/grapemedia">@grapemedia</a></p>
+										<p><span class="c-pluse"> </span><a href="https://plus.google.com/111984634575618960155/about?hl=cs">plus.com/grapemedia</a></p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="contact-right-grid">
+										<p><span class="c-msg"> </span><a href="mailto:indo@grapemedia.cz">info@grapemedia.cz</a></p>
+										<p><span class="c-face"> </span><a href="https://www.facebook.com/grapemediacz">fb.com/grapemediacz</a></p>
+										<p><span class="c-pin"> </span><a href="https://www.linkedin.com/company/grapemedia-s.r.o.">linkedin.com/grapemedia</a></p>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="contact-right wow fadeInLeft" data-wow-delay="0.4s">
+							<form>
+								<input type="text" class="text" value="Jméno..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name...';}">
+					 			<input type="text" class="text" value="Email..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email...';}">
+					 	 		<textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Zpráva..</textarea>
+								<input class="wow shake" data-wow-delay="0.3s" type="submit" value="Send Message" />
+							</form>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			
+				<div class="copy-right text-center"><p>Grape Media,s.r.o. IČO: 28884051 DIČ: CZ28884051</p></div>
+				<div class="copy-mara text-center">
+			
+			<p>zapsána v OR, vedeném Městským soudem v Praze, oddíl C, vložka 150975</p>
+			<p>Fakturační adresa: Šeříková 395, Jesenice - Osnice, 252 42</p>
+			<p>Doručovací adresa: Nad buďánkami II 17, Praha 5, 150 00</p>
+			<p>Bankovní spojení: 107-3982570267/0100, vedený u Komerční banky</p>
+			<p>Bankovní spojení - zahraniční platby: 2600167786/2010, IBAN: CZ2420100000002600167786, SWIFT/BIC: FIOBCZPPXXX</p>
+			<p>Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+					
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+				<!--- copy-right ---->
+			</div>
+			</div>
+			<!---- contact --->
+		</div>
+	</body>
+</html>
+
